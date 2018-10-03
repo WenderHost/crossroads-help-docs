@@ -1,0 +1,21 @@
+site_name: Crossroads Web Help
+
+theme: 'material'
+
+site_dir: '../public/help'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.mark
+  - pymdownx.inlinehilite
+  - pymdownx.betterem:
+      smart_enable: all
+  - meta
+  - toc:
+      permalink: true
+
+nav:
+  - README First: 'index.md'
+  - Working with images on the site: 'working-with-images.md'
+  - Uploading Podcasts: 'podcasts.md'
+
